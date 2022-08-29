@@ -11,7 +11,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@BugFix(id = "MC-121706", env = BugFix.Env.SERVER, category = FixCategory.BASIC)
+@BugFix(id = "MC-121706", env = BugFix.Env.SERVER, category = FixCategory.BASIC, enabled = false)
 @Mixin(BowAttackGoal.class)
 public abstract class BowAttackGoalMixin<T extends HostileEntity> {
     @Shadow @Final private T actor;
