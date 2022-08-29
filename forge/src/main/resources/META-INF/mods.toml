@@ -2,22 +2,22 @@
 modLoader = "javafml"
 # A version range to match for said mod loader - for regular FML @Mod it will be the forge version
 # Forge for 1.18 is version 38
-loaderVersion = "[42,)"
+loaderVersion = "[43,)"
 # The license for your mod. This is mandatory and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
 license = "LGPLv3.0"
 # A URL to refer people to when problems occur with this mod
-issueTrackerURL = "https://github.com/isXander/Debugify/issues"
+issueTrackerURL = "https://github.com/murao-kun/Debugify-reforged/issues"
 # If the mods defined in this file should show as separate resource packs
 showAsResourcePack = false
 
 [[mods]]
-modId = "debugify"
-version = "${version}"
-displayName = "Debugify"
-displayURL = "https://isxander.dev"
+modId = "debugify-reforged"
+version = "1.0.0"
+displayName = "Debugify Reforged"
+displayURL = "https://github.com/murao-kun/Debugify-reforged"
 logoFile = "debugify.png"
-authors = "isXander"
+authors = "isXander, murao.kun"
 description = '''
       Fixes Minecraft bugs found on the bug tracker
       '''
@@ -25,14 +25,14 @@ description = '''
 [[dependencies.debugify]]
 modId = "forge"
 mandatory = true
-versionRange = "[42,)"
+versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.debugify]]
 modId = "minecraft"
 mandatory = true
-versionRange = "1.19.1"
+versionRange = "1.19.2"
 ordering = "NONE"
 side = "BOTH"
 
