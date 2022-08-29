@@ -98,7 +98,6 @@ tasks.processResources {
 
 python {
     pip("requests:2.28.1")
-    pip("packaging:21.3")
 
     scope = PythonExtension.Scope.USER
 }
@@ -178,17 +177,6 @@ publishing {
             }
         }
     }
-}
-
-githubRelease {
-    token(findProperty("github.token")?.toString())
-
-    owner("isXander")
-    repo("Debugify")
-    tagName("${project.version}")
-    targetCommitish("1.19")
-    body(changelogText)
-    releaseAssets(tasks["remapJar"].outputs.files)
 }
 
 tasks.register("publishDebugify") {
