@@ -12,7 +12,7 @@ issueTrackerURL = "https://github.com/murao-kun/Debugify-reforged/issues"
 showAsResourcePack = false
 
 [[mods]]
-modId = "debugify-reforged"
+modId = "debugify"
 version = "1.0.0"
 displayName = "Debugify Reforged"
 displayURL = "https://github.com/murao-kun/Debugify-reforged"
