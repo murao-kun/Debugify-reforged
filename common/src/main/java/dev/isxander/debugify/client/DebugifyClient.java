@@ -8,7 +8,7 @@ public class DebugifyClient {
 
     public static void onInitializeClient() {
         bugFixDescriptionCache = new BugFixDescriptionCache();
-
+        /*
         if (Debugify.configWasDirty) {
             Debugify.logger.info("Re-caching descriptions because json doesn't match config.");
             bugFixDescriptionCache.trySave();
@@ -18,5 +18,6 @@ public class DebugifyClient {
                 bugFixDescriptionCache.trySave();
             }
         }
+        */
     }
 }
