@@ -10,21 +10,19 @@ import org.slf4j.LoggerFactory;
 public class Debugify {
     public static Logger logger = LoggerFactory.getLogger("Debugify");
     public static DebugifyConfig config = new DebugifyConfig();
-    public static boolean configWasDirty = false;
+    //public static boolean configWasDirty = false;
 
-    /*
     public static void onPreInitialize() {
         config.preload();
     }
-    */
 
     public static void onInitialize() {
-        configWasDirty = !config.doesJsonHaveIdenticalKeys();
+        /*configWasDirty = !config.doesJsonHaveIdenticalKeys();
         if (configWasDirty) {
             logger.info("Saving config because the loaded bug fixes are different to stored json.");
             config.save();
         }
-
+        */
         logger.info("Enabled {}/{} bugs!", config.getBugFixes().values().stream().filter((enabled) -> enabled).count(), config.getBugFixes().size());
         logger.info("Successfully Debugify'd your game!");
 
