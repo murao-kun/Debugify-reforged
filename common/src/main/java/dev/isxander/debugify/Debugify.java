@@ -12,13 +12,11 @@ public class Debugify {
     public static DebugifyConfig config = new DebugifyConfig();
     public static boolean configWasDirty = false;
 
-    /**
-     * Called from mixin plugin to manage
-     * disabled bug fixes
-     */
+    /*
     public static void onPreInitialize() {
         config.preload();
     }
+    */
 
     public static void onInitialize() {
         configWasDirty = !config.doesJsonHaveIdenticalKeys();
