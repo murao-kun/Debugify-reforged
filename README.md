@@ -6,9 +6,6 @@
 #### Debugify Reforged is unofficial fork of a project that fixes **over 70** bugs found on the <a href="https://bugs.mojang.com/projects/MC/issues">bug tracker</a> in Minecraft.
 (and does nothing more!)
 
-[![wakatime](https://wakatime.com/badge/github/W-OVERFLOW/Debugify.svg?style=for-the-badge)](https://wakatime.com/badge/github/W-OVERFLOW/Debugify)
-![Lines of Code](https://img.shields.io/tokei/lines/github/isXander/Debugify?color=%23ff4747&label=Lines%20of%20code&style=for-the-badge)
-
 </div>
 
 ## What does this mod replace?
